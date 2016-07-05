@@ -236,7 +236,7 @@ function create_config( )
     "all",
     "leave_ban"
     },
-    sudo_users = {118682430},--Sudo users
+    sudo_users = {156829329},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[Creed bot 2.3
@@ -615,7 +615,7 @@ function cron_plugins()
 end
 
 -- Start and load values
-our_id = 0
+our_id = 192471218
 now = os.time()
 math.randomseed(now)
 started = false
